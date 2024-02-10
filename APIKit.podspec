@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   }
 
   s.ios.deployment_target = "9.0"
-  s.osx.deployment_target = "10.10"
+  s.osx.deployment_target = "11.0"
   if s.respond_to?(:watchos)
     s.watchos.deployment_target = "2.0"
   end
